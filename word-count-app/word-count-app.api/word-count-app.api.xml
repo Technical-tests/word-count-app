@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>word-count-app.api</name>
+    </assembly>
+    <members>
+        <member name="T:word_count_app.api.Controllers.WordCountController">
+            <summary>
+            Controlador para contar las palabras de un texto
+            </summary>
+        </member>
+        <member name="M:word_count_app.api.Controllers.WordCountController.Count(word_count_app.common.Models.RequestWords)">
+            <summary>
+            Contamos las palabras repetidas de un texto. Si viene una palabra como filtro, contamos cuantas veces se repite esta en el texto, de lo contrario hacemos un conteo de todas
+            </summary>
+            <param name="request">Texto original y la palabra de filtro</param>
+            <returns>Resultados</returns>
+        </member>
+    </members>
+</doc>
